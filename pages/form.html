@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Nature's Source - Video Request</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/form.css">
   </head>
   <body>
@@ -19,11 +20,12 @@
           <td><a href="../index.html">Home</a></td>
           <td><a href="contactus.html">Contact Us</a></td>
           <td><a href="about.html">About Us</a></td>
+          <td><a href="bootstrap.html">bootstrap</a></td>
         </tr>
       </table>
     </div>
     <div class="grid-container">
-      <form>
+      <form class="grid-item">
         <div class="grid-item">
           <label for="fname">First Name: </label><br>
           <input type="text" id="fname" name="fname"><br>
@@ -44,10 +46,13 @@
         <div class="grid-item">
           <input type="submit" value="Submit">
           <input type="reset" value="Reset">
+        </div>
       </form>
-      <video width="320" height="240" controls>
-          <source src="mp4s/WIN_20220211_10_06_52_Pro.mp4" type="video/mp4">
-      </video>
+      <div class="grid-item">
+        <video width="320" height="240" controls>
+            <source src="mp4s/WIN_20220211_10_06_52_Pro.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
   </body>
 </html>

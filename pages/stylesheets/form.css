@@ -8,7 +8,7 @@ body {
     color: red;
   }
   .grid-container{
-    display: grid;
+    display: inline-flexbox;
     grid-template-areas:
     'menu menu menu menu menu menu'
     'header header header header header header';
