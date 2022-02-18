@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- form.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Nature's Source - Video Request</title>
+    <link rel="stylesheet" href="stylesheets/form.css">
+  </head>
+  <body>
+    <div class="links">
+      <table class="links">
+        <tr>
+          <td colspan="5">
+            <img src="../images/ParkerJahn.PNG" alt="Nature's Source"
+                width="auto" height="auto">
+          </td>
+        </tr>
+        <tr>
+          <td><a href="../index.html">Home</a></td>
+          <td><a href="contactus.html">Contact Us</a></td>
+          <td><a href="about.html">About Us</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="grid-container">
+      <form>
+        <div class="grid-item">
+          <label for="fname">First Name: </label><br>
+          <input type="text" id="fname" name="fname"><br>
+        </div>
+        <div class="grid-item">
+          <label for="lname">Last Name: </label><br>
+          <input type="text" id="lname" name="lname"><br>
+        </div>
+        <div class="grid-item">
+          <label for="idea">Original Idea:</label><br>
+          <input type="checkbox" id="idea" name="idea"><br>
+        </div>
+        <div class="grid-item">
+          <label for="textBox">Write it here:</label><br>
+          <textarea type="textarea" id="fname" name="fname"></textarea>
+          <br><br>
+        </div>
+        <div class="grid-item">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+      </form>
+      <video width="320" height="240" controls>
+          <source src="mp4s/WIN_20220211_10_06_52_Pro.mp4" type="video/mp4">
+      </video>
+    </div>
+  </body>
+</html>
