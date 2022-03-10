@@ -5,3 +5,12 @@ function testResults (form) {
     var idea = form.videoIdea.value;
     alert ("First Name: " + fName +"\n Last Name: " + lName + "\n Original Idea: " + originalIdea + "\n Idea: "+ idea);
 }
+
+function dungeonGenerator(x, y){
+    var map;
+    for(i=0; i<x; i++){
+        for(k=0; k<y; k++){
+            
+        }
+    }
+}
