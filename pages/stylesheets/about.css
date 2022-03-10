@@ -12,3 +12,6 @@ body{
     outline:5px solid orange;
     border: solid orange;;
 }
+.navbar-item{
+  display:inline-block;
+}

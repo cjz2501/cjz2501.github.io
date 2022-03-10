@@ -1,9 +1,13 @@
-  body{
+ body{
       box-sizing: border-box;
       background-color: white;
   }
-  .bg-light .navbar-nav .nav-link{
+  .nav-link{
     color: black;
+  }
+  .nav-item{
+    display: inline-block;
+    z-index: 999;
   }
   .videos{
       float: left; 
