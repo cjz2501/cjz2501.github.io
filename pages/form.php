@@ -27,7 +27,18 @@
     <div class="grid-container">
       <form class="grid-item" name="videoRequest">
         <div class="grid-item">
-          <label for="fname">First Name: </label><br>
+          <label for="fname">
+            <?php
+            $link = mysqli_connect("localhost", "root", "root", "parker_database", 3307);
+            if($link === false){
+              die("ERROR: Could not connect. " . mysqli_connect_error());
+            }
+
+            echo "Connect Successfully. Host info: " . mysqli_get_host_info($link);
+
+            mysqli_close($link);
+            ?>
+          </label><br>
           <input type="text" id="fname" name="fName"><br>
         </div>
         <div class="grid-item">

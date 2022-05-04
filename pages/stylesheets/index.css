@@ -1,4 +1,5 @@
- /* * { ALSO ADD FAVICON
+/*ALSO ADD FAVICON*/  
+  /* * { 
    outline: 1px solid red;
  } */
  body{
@@ -17,13 +18,13 @@
       width: 100%;
       height: 450px;
       outline:5px solid orange;
-      border: solid orange;;
+      border: solid orange;
   }
   /* Socials */
   .fa {
     padding: 20px;
     font-size: 30px;
-    width: 55px;
+    width: 60px;
     text-align: center;
     text-decoration: none;
     border-radius: 100%;
