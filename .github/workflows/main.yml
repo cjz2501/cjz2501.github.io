@@ -13,3 +13,4 @@ jobs:
     environment: production
     steps:
       - name: deploy
+      - uses: actions/checkout@v3
